@@ -28,6 +28,7 @@ func main() {
 	//Back end
 	fmt.Printf("Hello %v \n Thanks for our Pizza Center with %v star rating. \n\n Your rating was recorder in our system at %v \n\n", name, mynumRating, time.Now().Format(time.Stamp))
 
+	//condition rendering added
 	if mynumRating == 5 {
 		fmt.Println("Bonus for team for 5 star service")
 	} else if mynumRating < 5 && mynumRating >= 3 {
